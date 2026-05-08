@@ -355,7 +355,7 @@ class GBASaveFixPatcher
 
     private void InitializeBatteryPayload()
     {
-        // Embedded payload from JavaScript (2160 bytes - EXACT COPY)
+        // Embedded payload from https://gbarompatcher.com/script.js
         embeddedPayloadBin = new byte[]
         {
             0xc0, 0x00, 0x00, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00,
@@ -1034,7 +1034,8 @@ class GBASaveFixPatcher
         Console.WriteLine("  GBASaveFixPatcher.exe game.gba --battery --keypad # Apply battery patches (keypad mode)");
         Console.WriteLine();
         Console.WriteLine("https://github.com/darkxex/GBA-Save-Fix-Patcher");
-        Console.WriteLine("https://github.com/metroid-maniac/gba-auto-batteryless-patcher");
-        Console.WriteLine("https://github.com/bbsan2k/Flash1M_Repro_SRAM_Patcher");
+        Console.WriteLine("batteryless patch by https://github.com/metroid-maniac/gba-auto-batteryless-patcher");
+        Console.WriteLine("SRAM patch by https://github.com/bbsan2k/Flash1M_Repro_SRAM_Patcher");
+        Console.WriteLine("Javascript based code in https://gbarompatcher.com/script.js");
     }
 }
