@@ -1,4 +1,4 @@
-# GBA-Save-Fix-Bootleg-Patcher
+# GBA-Save-Fix-Patcher
 
 port of the code of (gba-auto-batteryless-patcher + Flash1M_Repro_SRAM_Patcher) in c#  
 GBA ROM Patcher - Applies SRAM and Battery patches to GBA ROMs  
