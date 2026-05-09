@@ -1,3 +1,4 @@
+<img width="1127" height="763" alt="image" src="https://github.com/user-attachments/assets/56f74546-4fff-44c2-9486-0f6d679ff30d" />
 # GBA Save Fix Patcher
 
 Applies SRAM and Battery patches to GBA ROMs.
